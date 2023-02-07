@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^examine1/', include('examine1.urls')),
     url(r'^top2/', include('top2.urls')),
     url(r'^examine2/', include('examine2.urls')),
+    url(r'^top3/', include('top3.urls')),
+    url(r'^examine3/', include('examine3.urls')),
     url(r'^end/', include('end.urls')),
     url(r'^sendtoGS/', include('sendtoGS.urls')),
     url(r'^admin/', admin.site.urls),

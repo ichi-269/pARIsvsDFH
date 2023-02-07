@@ -1,0 +1,222 @@
+{    
+    "YY": {
+        "title": "5-HS 高校における生徒の観察結果",
+        "descriptions": [
+            "これから生徒の観察結果が一件ずつ表示されます。",
+            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/ill.png",
+            "notp": "static/causalexp/img/not_ill.png",
+            "q": "static/causalexp/img/leave.png",
+            "notq": "static/causalexp/img/not_leave.png",
+            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+        },
+        "sentences": {
+            "a": "精神的に不健康であった、学校を退学した",
+            "b": "精神的に不健康であった、学校を退学しなかった",
+            "c": "精神的に不健康ではなかった、学校を退学した",
+            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "2": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "3": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "4": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "5-HS",
+        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+    },
+    "YN": {
+        "title": "5-HS 高校における生徒の観察結果",
+        "descriptions": [
+            "これから生徒の観察結果が一件ずつ表示されます。",
+            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/ill.png",
+            "notp": "static/causalexp/img/not_ill.png",
+            "q": "static/causalexp/img/leave.png",
+            "notq": "static/causalexp/img/not_leave.png",
+            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+        },
+        "sentences": {
+            "a": "精神的に不健康であった、学校を退学した",
+            "b": "精神的に不健康であった、学校を退学しなかった",
+            "c": "精神的に不健康ではなかった、学校を退学した",
+            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "2": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "3": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "4": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "5-HS",
+        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+    },
+    "NY": {
+        "title": "5-HS 高校における生徒の観察結果",
+        "descriptions": [
+            "これから生徒の観察結果が一件ずつ表示されます。",
+            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/ill.png",
+            "notp": "static/causalexp/img/not_ill.png",
+            "q": "static/causalexp/img/leave.png",
+            "notq": "static/causalexp/img/not_leave.png",
+            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+        },
+        "sentences": {
+            "a": "精神的に不健康であった、学校を退学した",
+            "b": "精神的に不健康であった、学校を退学しなかった",
+            "c": "精神的に不健康ではなかった、学校を退学した",
+            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "2": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "3": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "4": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "5-HS",
+        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+    },
+    "NN": {
+        "title": "5-HS 高校における生徒の観察結果",
+        "descriptions": [
+            "これから生徒の観察結果が一件ずつ表示されます。",
+            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/ill.png",
+            "notp": "static/causalexp/img/not_ill.png",
+            "q": "static/causalexp/img/leave.png",
+            "notq": "static/causalexp/img/not_leave.png",
+            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+        },
+        "sentences": {
+            "a": "精神的に不健康であった、学校を退学した",
+            "b": "精神的に不健康であった、学校を退学しなかった",
+            "c": "精神的に不健康ではなかった、学校を退学した",
+            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "2": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "3": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "4": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "5-HS",
+        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+    }
+}
