@@ -6,7 +6,7 @@ var estimations = [];
 var predictions = [];
 var sample_order = [];
 var mutation_prediction = [];
-let scenarios = shuffle(['YY','YN','NY','NN']);
+let scenarios = shuffle(['YY_C1_1','YN_C1_1','NY_C1_1','NN_C1_1']);
 //let scenarios = shuffle(['one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen']);
 let frequency = shuffle(['1','2','3','4']);
 let bgcolors = shuffle(['#f0ffff','#f5fffa','#f0fff0','#fffff0','#fdf5e6','#fff5ee','#f5f5dc','#e0ffff','#fffaf0','#f8f8ff','#fffafa','#f5f5f5','#f0f8ff']);
@@ -85,7 +85,7 @@ function to_next_scenario_description(is_first_time=false) {
     resetBackGround();
     document.getElementById('page').innerHTML = "<h4>"+ (sce_idx+1) + '/' + scenarios.length +"校目</h4>";
     document.getElementById('scenario_title').innerHTML = "<h2>" + 
-        test_order[scenarios[sce_idx]]['chemicals'] + "という高校の観察記録</h2>";
+        test_order[scenarios[sce_idx]]['chemicals'] + "高校の観察記録</h2>";
     document.getElementById('check_sentence').style.display = "inline-block";
     document.getElementById('description_area').style.display = "inline-block";
     document.getElementById('start_scenario_button').setAttribute("disabled",true);
