@@ -1,48 +1,60 @@
 {    
-    "YY_C1_1": {
-        "title": "5-HS 高校における生徒の観察結果",
+    "one": {
+        "title": "被験者に5-HSという薬を投与した時の実験記録",
         "descriptions": [
-            "これから生徒の観察結果が一件ずつ表示されます。",
-            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "これから5-HSという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
             "実験中のメモなどはお控えください。"
         ],
         "images": {
-            "p": "static/causalexp/img/ill.png",
-            "notp": "static/causalexp/img/not_ill.png",
-            "q": "static/causalexp/img/leave.png",
-            "notq": "static/causalexp/img/not_leave.png",
-            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+            "p": "static/causalexp/img/drug_1.png",
+            "notp": "static/causalexp/img/not_drug_1.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
         },
         "sentences": {
-            "a": "精神的に不健康であった、学校を退学した",
-            "b": "精神的に不健康であった、学校を退学しなかった",
-            "c": "精神的に不健康ではなかった、学校を退学した",
-            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+            "a": "被験者に5-HSという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に5-HSという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に5-HSという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に5-HSという薬を投与しなかった、被験者は眠気を感じなかった"
         },
         "samples": {
             "1": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
             },
             "2": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
             },
             "3": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
             },
             "4": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
             },
             "frequency_test": {
                 "a": 1,
@@ -52,52 +64,64 @@
             }
         },
         "chemicals": "5-HS",
-        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+        "result": "<font color='red'>5-HS</font>という薬の投与は、被験者にどのような影響を及ぼす"
     },
-    "YN_C1_1": {
-        "title": "5-HS 高校における生徒の観察結果",
+    "two": {
+        "title": "被験者に6-ANという薬を投与した時の実験記録",
         "descriptions": [
-            "これから生徒の観察結果が一件ずつ表示されます。",
-            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "これから6-ANという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
             "実験中のメモなどはお控えください。"
         ],
         "images": {
-            "p": "static/causalexp/img/ill.png",
-            "notp": "static/causalexp/img/not_ill.png",
-            "q": "static/causalexp/img/leave.png",
-            "notq": "static/causalexp/img/not_leave.png",
-            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+            "p": "static/causalexp/img/drug_2.png",
+            "notp": "static/causalexp/img/not_drug_2.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
         },
         "sentences": {
-            "a": "精神的に不健康であった、学校を退学した",
-            "b": "精神的に不健康であった、学校を退学しなかった",
-            "c": "精神的に不健康ではなかった、学校を退学した",
-            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+            "a": "被験者に6-ANという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に6-ANという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に6-ANという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に6-ANという薬を投与しなかった、被験者は眠気を感じなかった"
         },
         "samples": {
             "1": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
             },
             "2": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
             },
             "3": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
             },
             "4": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
             },
             "frequency_test": {
                 "a": 1,
@@ -106,53 +130,65 @@
                 "d": 1
             }
         },
-        "chemicals": "5-HS",
-        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+        "chemicals": "6-AN",
+        "result": "<font color='red'>6-AN</font>という薬の投与は、被験者にどのような影響を及ぼす"
     },
-    "NY_C1_1": {
-        "title": "5-HS 高校における生徒の観察結果",
+    "three": {
+        "title": "被験者に7-KSという薬を投与した時の実験記録",
         "descriptions": [
-            "これから生徒の観察結果が一件ずつ表示されます。",
-            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "これから7-KSという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
             "実験中のメモなどはお控えください。"
         ],
         "images": {
-            "p": "static/causalexp/img/ill.png",
-            "notp": "static/causalexp/img/not_ill.png",
-            "q": "static/causalexp/img/leave.png",
-            "notq": "static/causalexp/img/not_leave.png",
-            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+            "p": "static/causalexp/img/drug_3.png",
+            "notp": "static/causalexp/img/not_drug_3.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
         },
         "sentences": {
-            "a": "精神的に不健康であった、学校を退学した",
-            "b": "精神的に不健康であった、学校を退学しなかった",
-            "c": "精神的に不健康ではなかった、学校を退学した",
-            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+            "a": "被験者に7-KSという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に7-KSという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に7-KSという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に7-KSという薬を投与しなかった、被験者は眠気を感じなかった"
         },
         "samples": {
             "1": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
             },
             "2": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
             },
             "3": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
             },
             "4": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
             },
             "frequency_test": {
                 "a": 1,
@@ -161,53 +197,65 @@
                 "d": 1
             }
         },
-        "chemicals": "5-HS",
-        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+        "chemicals": "7-KS",
+        "result": "<font color='red'>7-KS</font>という薬の投与は、被験者にどのような影響を及ぼす"
     },
-    "NN_C1_1": {
-        "title": "5-HS 高校における生徒の観察結果",
+    "four": {
+        "title": "被験者に8-MNという薬を投与した時の実験記録",
         "descriptions": [
-            "これから生徒の観察結果が一件ずつ表示されます。",
-            "観察結果が確認できましたら、「次の事例へ」を押して次の観察結果を確認するという操作を繰り返してください。",
+            "これから8-MNという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
             "実験中のメモなどはお控えください。"
         ],
         "images": {
-            "p": "static/causalexp/img/ill.png",
-            "notp": "static/causalexp/img/not_ill.png",
-            "q": "static/causalexp/img/leave.png",
-            "notq": "static/causalexp/img/not_leave.png",
-            "arrow": "static/causalexp/img/yajirushi_kururi_right.png"
+            "p": "static/causalexp/img/drug_4.png",
+            "notp": "static/causalexp/img/not_drug_4.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
         },
         "sentences": {
-            "a": "精神的に不健康であった、学校を退学した",
-            "b": "精神的に不健康であった、学校を退学しなかった",
-            "c": "精神的に不健康ではなかった、学校を退学した",
-            "d": "精神的に不健康ではなかった、学校を退学しなかった"
+            "a": "被験者に8-MNという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に8-MNという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に8-MNという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に8-MNという薬を投与しなかった、被験者は眠気を感じなかった"
         },
         "samples": {
             "1": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
             },
             "2": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
             },
             "3": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
             },
             "4": {
-                "a": 2,
-                "b": 2,
-                "c": 2,
-                "d": 8
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
             },
             "frequency_test": {
                 "a": 1,
@@ -216,7 +264,141 @@
                 "d": 1
             }
         },
-        "chemicals": "5-HS",
-        "result": "生徒が精神的に不健康であったことは、その生徒の退学にどのような影響を及ぼす"
+        "chemicals": "8-MN",
+        "result": "<font color='red'>8-MN</font>という薬の投与は、被験者にどのような影響を及ぼす"
+    },
+    "five": {
+        "title": "被験者に2-RKという薬を投与した時の実験記録",
+        "descriptions": [
+            "これから2-RKという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/drug_5.png",
+            "notp": "static/causalexp/img/not_drug_5.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
+        },
+        "sentences": {
+            "a": "被験者に2-RKという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に2-RKという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に2-RKという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に2-RKという薬を投与しなかった、被験者は眠気を感じなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
+            },
+            "2": {
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
+            },
+            "3": {
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
+            },
+            "4": {
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "2-RK",
+        "result": "<font color='red'>2-RK</font>という薬の投与は、被験者にどのような影響を及ぼす"
+    },
+    "six": {
+        "title": "被験者に4-PLという薬を投与した時の実験記録",
+        "descriptions": [
+            "これから4-PLという薬についての実験結果が一件ずつ表示されます。",
+            "実験結果が確認できましたら、「次の事例へ」を押して次の実験結果を確認するという操作を繰り返してください。",
+            "実験中のメモなどはお控えください。"
+        ],
+        "images": {
+            "p": "static/causalexp/img/drug_6.png",
+            "notp": "static/causalexp/img/not_drug_6.png",
+            "q": "static/causalexp/img/sleep.png",
+            "notq": "static/causalexp/img/not_side_effect.png",
+            "arrow": "static/causalexp/img/yajirushi_right.png"
+        },
+        "sentences": {
+            "a": "被験者に4-PLという薬を投与した、被験者は眠気を感じた",
+            "b": "被験者に4-PLという薬を投与した、被験者は眠気を感じなかった",
+            "c": "被験者に4-PLという薬を投与しなかった、被験者は眠気を感じた",
+            "d": "被験者に4-PLという薬を投与しなかった、被験者は眠気を感じなかった"
+        },
+        "samples": {
+            "1": {
+                "a": 3,
+                "b": 0,
+                "c": 20,
+                "d": 5
+            },
+            "2": {
+                "a": 3,
+                "b": 4,
+                "c": 16,
+                "d": 5
+            },
+            "3": {
+                "a": 3,
+                "b": 8,
+                "c": 12,
+                "d": 5
+            },
+            "4": {
+                "a": 3,
+                "b": 12,
+                "c": 8,
+                "d": 5
+            },
+            "5": {
+                "a": 3,
+                "b": 16,
+                "c": 4,
+                "d": 5
+            },
+            "6": {
+                "a": 3,
+                "b": 20,
+                "c": 0,
+                "d": 5
+            },
+            "frequency_test": {
+                "a": 1,
+                "b": 1,
+                "c": 1,
+                "d": 1
+            }
+        },
+        "chemicals": "4-PL",
+        "result": "<font color='red'>4-PL</font>という薬の投与は、被験者にどのような影響を及ぼす"
     }
 }

@@ -84,7 +84,7 @@ function to_next_scenario_description(is_first_time=false) {
     }
     resetBackGround();
     document.getElementById('page').innerHTML = "<h4>"+ (sce_idx+1) + '/' + scenarios.length +"種類目</h4>";
-    document.getElementById('scenario_title').innerHTML = "<h2>患者に" + test_order[scenarios[sce_idx]]['chemicals'] + "という薬を投与した時の実験記録</h2>";
+    document.getElementById('scenario_title').innerHTML = "<h2>被験者に" + test_order[scenarios[sce_idx]]['chemicals'] + "という薬を投与した時の実験記録</h2>";
     document.getElementById('check_sentence').style.display = "inline-block";
     document.getElementById('description_area').style.display = "inline-block";
     document.getElementById('start_scenario_button').setAttribute("disabled",true);
@@ -137,6 +137,8 @@ function to_next_new_sample_page() {
 
 // 次の事例があるか確認し、存在しない場合は推定画面へ遷移
 function to_next_sample() {
+    const button1 = document.getElementById('next_sample');
+    button1.disabled = true;
     if (current_test_page >= sample_size) {
         alert('この病院の観察結果は以上になります。');
         draw_estimate('fin');
@@ -148,6 +150,9 @@ function to_next_sample() {
     //    return;
     // }
     showStimulation();
+    setTimeout(function(){
+        button1.disabled = false;
+    },500);
 }
 
 function showStimulation() {
@@ -253,8 +258,8 @@ function draw_estimate(c) {
 
     document.getElementById('estimate_description').innerHTML = 
         '<p>' + test_order[scenarios[sce_idx]]['result'] + 'と思いますか？</p><br>' + 
-        '<p>0: ' + test_order[scenarios[sce_idx]]['chemicals'] + 'という薬の投与は体調の悪化を全く引き起こさない</p><br>' + 
-        '<p>100: ' + test_order[scenarios[sce_idx]]['chemicals'] + 'という薬の投与は体調の悪化を確実に引き起こす </p><br>' +
+        '<p>0：' + test_order[scenarios[sce_idx]]['chemicals'] + 'という薬の投与は眠気を全く引き起こさない</p><br>' + 
+        '<p>100：' + test_order[scenarios[sce_idx]]['chemicals'] + 'という薬の投与は眠気を確実に引き起こす</p><br>' +
         '<p>として、0から100の値で<b>直感的に</b>回答してください。</p><br>' +
         '<p>※スライダーをクリックしたままドラッグ&ドロップすると挙動がおかしくなる場合があります。その場合はスライダーを直接クリックして値を選択してください。</p><br>'
 }
