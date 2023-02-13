@@ -26,13 +26,16 @@ p{
 #show_area{
     display: inline-block;
     align-items: center;
-    width: 100%;
+    width: auto;
     text-align: center;
     margin:auto;
 }
-#first_sentence{
-    padding-right: 220px;
+#table_area{
+    text-align: center;
 }
+/*#first_sentence{
+    padding-right: 220px;
+}*/
 /*#sample_before{
     width: 45%;
 }*/

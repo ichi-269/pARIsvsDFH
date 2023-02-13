@@ -9,7 +9,7 @@ var mutation_prediction = [];
 //let scenarios = shuffle(['one','two']);
 let scenarios = shuffle(['one','two','three','four','five','six','seven','eight','nine','ten','eleven']);
 let frequency = shuffle(['1','2','3','4','5','6','7','8','9','10','11']);
-let bgcolors = shuffle(['#f0ffff','#f5fffa','#f0fff0','#fffff0','#fdf5e6','#fff5ee','#f5f5dc','#e0ffff','#fffaf0','#f8f8ff','#fffafa','#f5f5f5','#f0f8ff']);
+let bgcolors = shuffle(['#f0ffff','#f0fff0','#f5f5dc','#e0ffff','#fffaf0','#f8f8ff','#fffafa','#f5f5f5','#f0f8ff']);
 let image_type = ["p", "notp", "q", "notq"];
 let img_combination = {
     'a': {'cause': 'p', 'effect': 'q'},
